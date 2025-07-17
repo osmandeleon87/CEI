@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Enseñanza de Lenguas</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: #0b3d91; color: white; padding: 20px; text-align: center; }
+        nav { background: #054aba; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; max-width: 800px; margin: auto; }
+        footer { background: #0b3d91; color: white; text-align: center; padding: 10px; }
+        .button { display: inline-block; background: #054aba; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Centro de Enseñanza de Lenguas</h1>
+        <p>Institución Universitaria de Barranquilla</p>
+    </header>
+
+    <nav>
+        <a href="#oferta">Oferta Académica</a>
+        <a href="#inscripciones">Inscripciones</a>
+        <a href="#cronograma">Cronograma</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Bienvenidos</h2>
+        <p>El Centro de Enseñanza de Lenguas de la Institución Universitaria de Barranquilla ofrece programas de calidad para el aprendizaje de lenguas extranjeras, contribuyendo al desarrollo académico y profesional de nuestros estudiantes bajo principios de inclusión y excelencia.</p>
+
+        <h2 id="oferta">Oferta Académica</h2>
+        <ul>
+            <li>Inglés niveles A1 a B2 (MCER)</li>
+            <li>Preparación para exámenes internacionales (IELTS, TOEFL)</li>
+            <li>Talleres de conversación</li>
+            <li>Actividades culturales en inglés</li>
+        </ul>
+
+        <h2 id="inscripciones">Inscripciones</h2>
+        <p>Para inscribirte, completa el formulario de inscripción y sigue las instrucciones de matrícula.</p>
+        <a href="#" class="button">Inscríbete aquí</a>
+
+        <h2 id="cronograma">Cronograma</h2>
+        <ul>
+            <li>Enero: Apertura de inscripciones y nivelaciones</li>
+            <li>Febrero: Inicio de clases</li>
+            <li>Abril: English Day</li>
+            <li>Junio: Evaluaciones finales primer semestre</li>
+            <li>Agosto: Inicio de clases segundo semestre</li>
+            <li>Noviembre: Evaluaciones finales segundo semestre</li>
+        </ul>
+
+        <h2 id="contacto">Contacto</h2>
+        <p>Dirección: Barranquilla, Colombia<br>
+        Correo: cel@institucion.edu.co<br>
+        Teléfono: +57 300 000 0000</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        &copy; 2025 Centro de Enseñanza de Lenguas - Institución Universitaria de Barranquilla
+    </footer>
+</body>
+</html>
